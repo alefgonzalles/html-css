@@ -69,15 +69,6 @@ header .nave li a{
 }
 
 
-
-
-
-
-
-
-
-
-
 .conteine{
     position: relative;
     width: 100%;
@@ -99,4 +90,28 @@ margin-left: 20px;
     line-height: 2.5em;
     font-weight:700 ;
 
+}
+.conteine .texte h2 span{
+    font-size: 3.5em;
+    color: red;
+}
+.conteine .texte p{
+    color: white;
+}
+
+.conteine .texte a{
+  display: inline-block;
+  margin-top: 50px;
+  padding:10px 25px ;
+  background-color: red;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border-radius: 40px;
+  box-shadow: 1px 1px white;
+  transition: 0.3s ease-in-out;
+}
+.conteine .texte a:hover{
+    transform: translateY(-10px);
 }
