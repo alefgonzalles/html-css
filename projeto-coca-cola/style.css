@@ -115,3 +115,45 @@ margin-left: 20px;
 .conteine .texte a:hover{
     transform: translateY(-10px);
 }
+
+.icones{
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icones li{
+ list-style: none;
+}
+.icones li a{
+display: inline-block;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background: #222;
+margin-left: 45px;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: 0.3s ease-in-out;
+}
+
+
+.icones li a:hover{
+    background-color: red;
+    transform: translateY(-10px);
+}
+.icones li a img{
+    transform: scale(0.5);
+    filter: invert(1);
+}
+.box-img{
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+}
+.box-img img{
+    width: 200px;
+}
