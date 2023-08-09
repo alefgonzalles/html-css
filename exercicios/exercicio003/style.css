@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    min-height: 100vh;
+    background-color:#a36850 ;
+}
+header{
+    background-color: #50352a;
+    color: white;
+    text-align: center;
+}
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+header > p {
+    padding-bottom: 50px;
+}
+
+section{
+    padding-top: 9vh;
+    padding-bottom:9vh ;
+}
+
+ .normal {
+    background-color:#d08365;
+    color:white;
+   
+}
+
+.img {
+    background-color: #a36850;
+    color: blanchedalmond;
+}
+
+footer{ 
+    background-color:  #50352a;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
