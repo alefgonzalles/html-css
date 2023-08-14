@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+       body{
+        font-family: Arial, Helvetica, sans-serif;
+
+       } 
+
+       table{
+        width: 500px;
+        border-collapse: collapse 
+        
+       }
+
+       td, th{
+        border: 1px solid black ;
+        padding: 10px;
+       } 
+       thead, tfoot{
+        background-color: rgb(10, 10, 10);
+        color: white;
+
+
+      thead > tr > tr {
+        position:sticky;
+        top: 0;
+        background-color: black;
+      }
+
+
+       }
+       .nun{
+        text-align: right;
+        width: 100px;
+       }
+
+       caption{
+        font-size:1.5em ;
+        font-weight: bold;
+        padding: 10px;
+        background-color:rgba(128, 128, 128, 0.562) ;
+       }
+       tbody > tr:nth-child(2n) {
+        background-color: gray;
+       }
+
+    </style>
+</head>
+<body>
+    <h1>uso de tabelas</h1>
+    <!--
+      Anatomia para tabelas grandes 
+    table
+      caption
+      thead = tr, td, th
+      tbody = tr, td, th
+      tfoot = tr, td, th
+    -->
+    
+    <table>
+        <caption>população das unidades federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col" >Estado</th>
+                <th scope="col">população</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>são paulo</td>
+                <td class="nun">45 919 849</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="nun">21 345 365</td>
+            </tr>
+
+            <tr>
+                <td>Rio de janeiro</td>
+                <td class="nun">364 876 091</td>
+            </tr>
+
+            <tr>
+                <td>pernambuco</td>
+                <td class="nun">456 879 146</td>
+            </tr>
+
+            <tr>
+                <td>piaui</td>
+                <td  class="nun">109 724 636</td>
+            </tr>
+
+            <tr>
+                <td>amazonas</td>
+                <td class="nun">987 039 374</td>
+            </tr>
+
+            <tr>
+                <td>brasilia</td>
+                <td  class="nun">982 059 274</td>
+            </tr>
+
+            <tr>
+                <td>bahia</td>
+                <td  class="nun">387 399 374</td>
+            </tr>
+
+            <tr>
+                <td>rio grande do sul</td>
+                <td  class="nun">887 339 174</td>
+            </tr>
+
+            <tr>
+                <td>amapá</td>
+                <td class="nun">624 396 143</td>
+            </tr>
+
+            <tr>
+                <td>pará</td>
+                <td class="nun">018 212 836</td>
+            </tr>
+
+            <tr>
+                <td>sergipe</td>
+                <td class="nun">472 093 254</td>
+            </tr>
+
+            <tr>
+                <td>paraiba</td>
+                <td class="nun">402 593 250</td>
+            </tr>
+
+
+            <tr>
+                <td>alagoas</td>
+                <td class="nun"> 234 847 256</td>
+            </tr>
+
+            <tr>
+                <td>mato groso</td>
+                <td class="nun"> 286 465 825</td>
+            </tr>
+          
+        </tbody>
+       <tfoot>
+        <tr>
+           <th scope="row">total de habitantes</th>
+           <td><strong>266. 376. 208</strong></td> 
+        </tr>
+       </tfoot>
+    </table>
+</body>
+</html>
