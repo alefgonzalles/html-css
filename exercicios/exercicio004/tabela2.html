@@ -12,7 +12,7 @@
 
        table{
         width: 500px;
-        border-collapse: collapse;,
+        border-collapse: collapse;
         position: relative;
        }
 
@@ -20,22 +20,19 @@
         border: 1px solid black ;
         padding: 10px;
        } 
-       thead, tfoot{
+      thead, tfoot{
         background-color: rgb(10, 10, 10);
         color: white;
-
-
-      thead > tr > tr {
-        position:sticky;
-        top: 0;
-        background-color: black;
-      }
-
-
        }
+
+       thead > tr >th {
+        position: sticky;
+        top: -1px;
+        background-color: black;
+       }
+       
        .nun{
         text-align: right;
-        width: 100px;
        }
 
        caption{

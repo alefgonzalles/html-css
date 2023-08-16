@@ -1,0 +1,31 @@
+
+table{
+   border-collapse:collapse ;
+   border: solid 1px black;
+ 
+}
+
+td, th  {
+    border: solid 1px black;
+
+}
+
+thead{
+    background-color: blue;
+    color: azure;
+}
+
+.m{
+    background-color: blue;
+    color: azure;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+ 
+table{
+    position: absolute;
+    left: 39%;
+    top: 100px;
+}
