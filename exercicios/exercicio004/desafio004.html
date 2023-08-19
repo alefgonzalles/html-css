@@ -3,39 +3,174 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mais uma tabela </title>
+    <title> tabela responsivas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+         
+        }
+       th, td{
+            border:solid 1px blue;
+            padding: 10px;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 20px;
+        }
+        tr:nth-child(evem) { /*efeito zebrado*/
+            background-color: rgb(124, 133, 133);
+        }
+
+        #conteine{
+            overflow-x: auto;
+        }
+    </style>
 </head>
 <body>
+    <h1>tabelas em telas pequenas </h1>
+    <p>vamos agora criar uma tabela responsiva 
+        que dar para olhar en telas pequenas como de 
+        celular tabletes aipdes etc.
+    </p>
+    <div id="conteine"> 
     <table>
+        <caption>tabelas responsivas </caption>
+
         <thead>
             <tr>
-                <th>carros</th>
-                <th>motos</th>
-                <th>marcas</th>
+                <th>produto</th>
+                <th>jan</th>
+                <th>fev</th>
+                <th>mar</th>
+                <th>abr</th>
+                <th>mai</th>
+                <th>jun</th>
+                <th>jul</th>
+                <th>ago</th>
+                <th>set</th>
+                <th>out</th>
+                <th>nov</th>
+                <th>dez</th>
             </tr>
         </thead>
-
         <tbody>
             <tr>
-                <td>gol</td>
-                <td>pop</td>
-                <td>wolvaguen</td>
+                <td>macbook</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
 
             <tr>
-                <td>golf</td>
-                <td>titan</td>
-                <td>honda</td>
+                <td>airpods</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
 
             <tr>
-                <td>d</td>
+                <td>iphone 13 pro max </td>
                 <td></td>
                 <td></td>
-
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
 
+            <tr>
+                <td>airpods pro</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>smath wht</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>galaxis S8</td>
+                <td>8</td>
+                <td>9</td>
+                <td>02</td>
+                <td>98</td>
+                <td>543</td>
+                <td>75</td>
+                <td>12</td>
+                <td>34</td>
+                <td>23</td>
+                <td>56</td>
+                <td>76</td>
+                <td>46</td>
+            </tr>
+
+            <tr>
+                <td>tesla</td>
+                <td>1</td>
+                <td>2</td>
+                <td>45</td>
+                <td>84</td>
+                <td>84</td>
+                <td>74</td>
+                <td>4</td>
+                <td>63</td>
+                <td>9</td>
+                <td>39</td>
+                <td>43</td>
+                <td>2</td>
+            </tr>
         </tbody>
     </table>
+</div>
 </body>
 </html>
